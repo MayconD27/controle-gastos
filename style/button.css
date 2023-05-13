@@ -1,0 +1,44 @@
+.card_button{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 10px 30px;
+    box-shadow:0px -3px 3px #ededed;
+    border-radius: 10px;
+}
+.card_button a{
+    width: 50%;
+    height: 30px;
+    box-shadow: 5px 5px 10px #00000015;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: arial;
+}
+.add{
+    background-color: #004cb6b1;
+    text-align: center;
+    color: #fff;
+}
+.clear{
+    background-color: #0092b6b1;
+    text-align: center;
+    color: #fff;
+}
+.clear:hover{
+    content: "This text replaces the original."
+}
+.bi-trash3-fill{
+    color: #cf0606;
+    cursor: pointer;
+    transition: .5s;
+    background-color: transparent;
+}
+.bi-trash3-fill:hover{
+    box-shadow: inset 0px 0px 10px #ff000029;
+    border-radius: 50%;
+}
